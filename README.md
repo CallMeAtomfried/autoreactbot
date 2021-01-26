@@ -1,4 +1,4 @@
-# autoreactbot
+# Frend
 A Discord bot that does nothing but react.
 
 It waits for specific triggers and sends a message. Allows for multiple responses that get choosen form at random.
