@@ -3,6 +3,8 @@ A Discord bot that does nothing but react.
 
 It waits for specific triggers and sends a message. Allows for multiple responses that get choosen form at random.
 
+Put your bot token in the config file else this wont respond to anyone
+
 # Commands:
 
 To add a trigger: 
