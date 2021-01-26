@@ -21,4 +21,4 @@ ID must be an integer. Else nothing happens. To find out the ID, you can search 
 $lr [search text]
 
 It must not be an exact match, this will return every response to every trigger that contains the text you entered.
-The search results will show you the ID with which to delete a response, the trigger the response belongs to and the response itself.
+The search results will show you the ID with which to delete a response, the trigger the response belongs to and the response itself. Triggers are automatically deleted if no response is associated with them
