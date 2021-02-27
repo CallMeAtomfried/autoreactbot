@@ -39,29 +39,19 @@ client.on("message", (message) => {
 				if(message.content.includes(x)) {
 					message.channel.send(autoreacts.part[x][randomProperty(autoreacts.part[x])]);
 				}
-					
 			}
 		}
 	}
-	
-	
-	
-	
-		
-		
-	
 });
 
-//not important, allows for several responses to the same trigger, chosen at random
+//allows for several responses to the same trigger, chosen at random
 function randomProperty(object) {
   var keys = Object.keys(object);
   return keys[Math.floor(keys.length * Math.random())];
 }
 
-//$addresponse string; response; mode
+//$ar string; response; mode
 //where mode is either "full" or "contains". Invalid values or no value for mode default to "full"
-
-
 function addresponse(message, msg){
 	var mode = "";
 	
