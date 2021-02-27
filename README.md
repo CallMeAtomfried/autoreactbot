@@ -8,7 +8,8 @@ It waits for specific triggers and sends a message. Allows for multiple response
 Put your bot token in the config file else this wont respond to anyone
 
 # Mistake
-i forgot to check for permissions. easy fix but annoying.
+
+i think it checks permissions now but im not sure, cannot test rn will do soon
 
 # Commands:
 
