@@ -17,15 +17,15 @@ client.login(config.token);
 client.on("message", (message) => {
 	
 	//Add responses
-	if(message.content.startsWith(`${config.prefix}ar`)){
+	if(message.content.startsWith(`${config.prefix}ar`)&&message.member.hasPermission('ADMINISTRATOR') ){
 		addresponse(message.content.substring(3+config.prefix.length), message);
 		
 	//Remove responses	
-	} else if(message.content.startsWith(`${config.prefix}rr`)){
+	} else if(message.content.startsWith(`${config.prefix}rr`)&&message.member.hasPermission('ADMINISTRATOR')){
 		removeresponse(message.content.substring(3+config.prefix.length), message);
 		
 	//List responses
-	} else if(message.content.startsWith(`${config.prefix}lr`)){
+	} else if(message.content.startsWith(`${config.prefix}lr`)&&message.member.hasPermission('ADMINISTRATOR')){
 		listresponses(message.content.substring(3+config.prefix.length), message);
 		
 	//here be the replying part
