@@ -1,3 +1,5 @@
+Needs Node and discord js
+
 # Frend
 A Discord bot that does nothing but react.
 
